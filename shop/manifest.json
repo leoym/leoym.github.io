@@ -1,0 +1,24 @@
+{
+  "short_name": "Tech Talk Shop",
+  "name": "Shopping TT",
+  "icons": [
+    {
+      "src": "favicon-152.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-152.pngg",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-152.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "landscape"
+}
