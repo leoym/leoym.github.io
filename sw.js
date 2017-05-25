@@ -8,7 +8,7 @@ self.addEventListener('install', function(e) {
        '/index.html',
        '/loja-adidas.html',
        '/loja-bacio-di-latte.html',
-       '/loja-brooksfield.html'
+       '/loja-brooksfield.html',
        '/loja-burberry.html'
 
      ]);
