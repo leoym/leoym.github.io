@@ -9,19 +9,27 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="manifest" href="manifest.json">
 </head>
+<script>
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('/sw.js')
+           .then(function() { console.log("Service Worker Registered"); });
+}
+</script>
+
 <body>
 <div class="current-page">
 
 
 <main class="home">
-	
+
 	<h1 class="z-depth-1">O Shopping</h1>
 
 	<div class="collection z-depth-1">
 		<a href="lojas.html" class="collection-item waves-effect">
 			<i class="material-icons">card_giftcard</i>
 			Lojas &amp; Restaurantes
-		</a>	
+		</a>
 
 		<a href="pagar-estacionamento.html" class="collection-item waves-effect">
 			<i class="material-icons">directions_car</i>
@@ -45,4 +53,3 @@
 
 </body>
 </html>
-
